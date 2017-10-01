@@ -14,7 +14,9 @@ So what if there's (probably is) type called `Baz` and you use it:
 ```go
 import "foo/bar/baz"
 
-var baz baz.Baz{}
+func main() {
+        baz := baz.New()
+}
 ```
 
 ![wat.](http://i0.kym-cdn.com/photos/images/newsfeed/000/173/576/Wat8.jpg)
