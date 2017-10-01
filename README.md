@@ -65,7 +65,7 @@ func main() {
     require "shopping-center/model/basket"
     require "shopping-center/model/basket_item"
 
-    basket := Basket.new(nil)
+    basket = Basket.new(nil)
     basket.add_item!(BasketItem.new("NikeLab ACG 07 KMTR", "1100"))
     basket.add_item!(BasketItem.new("Nike Kobe A.D. Triple Black", "750"))
     basket.total_price()
