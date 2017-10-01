@@ -50,8 +50,8 @@ With that trick I can use packages as metaphor to classes and you can write:
 ```go
 package main
 
-import Basket "shopping-center/model/basket"
-import BasketItem "shopping-center/model/basket_item"
+import Basket "gigsib/model/basket"
+import BasketItem "gigsib/model/basket_item"
 
 func main() {
         basket := Basket.New(nil)
@@ -62,8 +62,8 @@ func main() {
 ```
 
 ```ruby
-    require "shopping-center/model/basket"
-    require "shopping-center/model/basket_item"
+    require "gigsib/model/basket"
+    require "gigsib/model/basket_item"
 
     basket = Basket.new(nil)
     basket.add_item!(BasketItem.new("NikeLab ACG 07 KMTR", "1100"))

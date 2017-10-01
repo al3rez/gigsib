@@ -1,6 +1,6 @@
 package basket
 
-import basket_item "shopping-center/model/basket_item"
+import basket_item "gigsib/model/basket_item"
 
 type Type struct {
 	Items []*basket_item.Type

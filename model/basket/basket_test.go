@@ -1,8 +1,8 @@
 package basket_test
 
 import (
-	Basket "shopping-center/model/basket"
-	BasketItem "shopping-center/model/basket_item"
+	Basket "gigsib/model/basket"
+	BasketItem "gigsib/model/basket_item"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
