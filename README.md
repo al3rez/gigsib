@@ -51,7 +51,7 @@ With that trick I can use packages as metaphor to classes and you can write:
 package main
 
 import Basket "shopping-center/model/basket"
-import BasketItem "shopping-center/model/basket"
+import BasketItem "shopping-center/model/basket_item"
 
 func main() {
         basket := Basket.New(nil)
