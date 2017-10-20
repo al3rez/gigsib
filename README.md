@@ -36,7 +36,7 @@ func NewBaz() {
 Solution
 --------
 
-I found a solution or trick to naming things in decent way IMO. So you just name your package whatever you want and there must be only one exported type inside the package and you should call it `Type` and you `must` separate each type into different packages and you `must` name packages explicitly with in `CamelCase`.
+I found a solution or trick to naming things in decent way IMO. So you just name your package whatever you want and there must be only one exported type inside the package and you should call it `Type` and you `must` separate each type into different packages and you `must` name packages explicitly with in `PascalCase`.
 
 ```go
 import Baz "foo/bar/baz"
